@@ -1,0 +1,20 @@
+{
+  "name": "3-call-api-node-console",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "msal-node-cli": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@azure/msal-node": "^2.7.0",
+    "3-call-api-node-console": "file:",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "yargs": "^17.7.2"
+  }
+}
